@@ -1,0 +1,16 @@
+<svg width="192" height="192" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="192" height="192" rx="40" fill="#10b981"/>
+  
+  <!-- Geometric pattern -->
+  <path d="M96 40 L140 70 L140 120 L96 150 L52 120 L52 70 Z" 
+        fill="none" stroke="white" stroke-width="6" stroke-linejoin="round"/>
+  
+  <!-- Inner shape -->
+  <path d="M96 70 L120 87 L120 113 L96 130 L72 113 L72 87 Z" 
+        fill="#fbbf24"/>
+  
+  <!-- Arrows indicating arbitrage -->
+  <path d="M85 95 L91 95 L88 90 Z" fill="white"/>
+  <path d="M107 105 L101 105 L104 110 Z" fill="white"/>
+</svg>
