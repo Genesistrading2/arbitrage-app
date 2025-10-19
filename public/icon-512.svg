@@ -1,0 +1,36 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="512" height="512" rx="100" fill="url(#grad)"/>
+  
+  <!-- Main hexagon -->
+  <path d="M256 100 L370 180 L370 340 L256 420 L142 340 L142 180 Z" 
+        fill="none" stroke="white" stroke-width="12" stroke-linejoin="round"/>
+  
+  <!-- Inner hexagon with gold -->
+  <path d="M256 180 L320 220 L320 300 L256 340 L192 300 L192 220 Z" 
+        fill="#fbbf24" opacity="0.9"/>
+  
+  <!-- Trend arrows -->
+  <g transform="translate(256, 260)">
+    <!-- Up arrow -->
+    <path d="M-40 -20 L-40 20 M-40 -20 L-50 -10 M-40 -20 L-30 -10" 
+          stroke="white" stroke-width="8" fill="none" stroke-linecap="round"/>
+    
+    <!-- Down arrow -->
+    <path d="M40 20 L40 -20 M40 20 L50 10 M40 20 L30 10" 
+          stroke="white" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Dollar signs -->
+  <text x="220" y="270" font-family="Arial, sans-serif" font-size="48" 
+        font-weight="bold" fill="white">$</text>
+  <text x="270" y="270" font-family="Arial, sans-serif" font-size="48" 
+        font-weight="bold" fill="white">$</text>
+</svg>
